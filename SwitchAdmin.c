@@ -2,6 +2,18 @@
 #include <stdlib.h>
 #include <string.h>
 
+void login(){
+	
+	char name[32];
+	char pwd[32];
+	
+	printf("请输入用户名:");
+	scanf("%s",name);
+	
+	printf("请输入密码:");
+	scanf("%s",pwd);
+	
+}
 
 int main(int argc,char *argv[]){
 	
